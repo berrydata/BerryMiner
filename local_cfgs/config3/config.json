@@ -1,0 +1,22 @@
+{
+    "contractAddress": "0x7DdC408C0Cd13D3543156AE2bc5772C56E91AA0f",
+    "nodeURL": "http://localhost:8545",
+    "publicAddress": "b9dD5AfD86547Df817DA2d0Fb89334A6F8eDd891",
+    "privateKey": "d13dc98a245bd29193d5b41203a1d3a4ae564257d60e00d6f68d120ef6b796c5",
+    "serverHost": "localhost",
+    "serverPort": 5003,
+    "ethClientTimeout": 3000,
+    "trackerCycle": 10,
+    "requestData":0,
+    "gasMultiplier": 1,
+    "gasMax":10,
+    "useGPU":false,
+    "trackers": [
+        "balance",
+        "disputeStatus",
+        "gas",
+        "tributeBalance",
+        "indexers"
+    ],
+    "dbFile": "berryDB3"
+}

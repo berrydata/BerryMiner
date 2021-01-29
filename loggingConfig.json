@@ -1,0 +1,47 @@
+[
+    {
+        "component": "config.Config",
+        "level": "INFO"
+    },
+    {
+        "component":"db.DB",
+        "level": "INFO"
+    },
+    {
+        "component": "rpc.client",
+        "level": "INFO"
+    },
+    {
+        "component": "rpc.ABICodec",
+        "level": "INFO"
+    },
+    {
+        "component": "rpc.mockClient",
+        "level": "INFO"
+    },
+    {
+        "component": "tracker.Top50Tracker",
+        "level": "INFO"
+    },
+    {
+        "component": "tracker.FetchDataTracker",
+        "level": "INFO"
+    },  
+    {
+        "component": "pow.MiningWorker-0",
+        "level": "INFO"
+    },    {
+        "component": "pow.MiningWorker-1",
+        "level": "INFO"
+    },    {
+        "component": "pow.MiningTasker-0",
+        "level": "INFO"
+    },    {
+        "component": "pow.MiningTasker-1",
+        "level": "INFO"
+    },
+    {
+        "component":"tracker.PSRTracker",
+        "level":"INFO"
+    }
+]
