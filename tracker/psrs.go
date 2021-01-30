@@ -10,10 +10,8 @@ import (
 	"github.com/berrydata/BerryMiner/config"
 )
 
-var switchTime, _ = time.Parse(time.RFC3339, "2020-06-26T00:00:00+00:00")
-
 var PSRs = map[int]ValueGenerator{
-	1: &SingleSymbol{symbol: "ETH/USD", granularity: 1000000, transform: MedianAt},
+	1: &SingleSymbol{symbol: "BTC/USD", granularity: 1000000, transform: MedianAt},
 	2: &SingleSymbol{symbol: "ETH/USD", granularity: 1000000, transform: MedianAt},
 	3: &SingleSymbol{symbol: "LINK/USD", granularity: 1000000, transform: MedianAt},
 	4: &SingleSymbol{symbol: "LTC/USD", granularity: 1000000, transform: MedianAt},
