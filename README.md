@@ -13,17 +13,67 @@ It's built on Go and utilizes a split structure.  The database piece is a LevelD
 </p>
 
 
-### Berry Deployed Addresses
+## Berry Deployed Addresses
 
-BSC Mainnet - [](https://etherscan.io/address/)
+BSC Mainnet - [0xf859Bf77cBe8699013d6Dbc7C2b926Aaf307F830](https://bscscan.com/address/0xf859bf77cbe8699013d6dbc7c2b926aaf307f830)
 
-### Instructions for deployment
-
+## How to build
 Now only support linux and MacOS system.
 
 ```bash
 ./relealse_build.sh
 ```
+
+## How to mine
+
+Firstly you should config your account in `config.json`
+
+Please input your account address and private key in `config.json`, both are not with prefix `0x`.
+
+### Stake 1000 BRY
+
+Please confirm that your account above have 1000 BRY and some BNB token for fee.
+
+You can use follow command to check your balance:
+
+```bash
+./BerryMiner balance
+```
+
+Its output should as follow
+
+```bash
+0xe010aC6e0248790e08F42d5F697160DEDf97E024
+      0.91 ETH
+   1034.73 BRY
+```
+
+Now you can start stake 1000 BRY for mining by this command
+
+```bash
+./BerryMiner stake deposit
+```
+
+Then you can use this command to check your stake status
+
+```bash
+/BerryMiner stake status
+```
+
+Its output should as follow
+
+```bash
+Staked in good standing since 2021-03-09 00:00:00 +0000 UTC
+```
+
+### Start Mining
+
+You can use this command to start mining
+
+```
+nohup ./BerryMiner mine &
+```
+
 
 ### DISCLAIMER
 
