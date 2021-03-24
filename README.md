@@ -44,7 +44,7 @@ Its output should as follow
 
 ```bash
 0xe010aC6e0248790e08F42d5F697160DEDf97E024
-      0.91 ETH
+      0.91 BNB
    1034.73 BRY
 ```
 
