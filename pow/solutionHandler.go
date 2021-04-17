@@ -99,7 +99,7 @@ func (s *SolutionHandler) Submit(ctx context.Context, result *Result) bool {
 		tm := time.Unix(last, 0)
 		fmt.Println("Time since last submit: ", today.Sub(tm))
 		if today.Sub(tm) < time.Duration(1)*time.Minute {
-			fmt.Println("Cannot submit value, within 1 minute")
+			fmt.Println("Cannot submit value within 1 minute")
 			return false
 		}
 	}
@@ -146,7 +146,7 @@ func (s *SolutionHandler) Submit(ctx context.Context, result *Result) bool {
 				} else if manualVal > 0 {
 					value = big.NewInt(manualVal)
 				} else {
-					s.log.Error("No Value in database, not submitting here2.", challenge.RequestIDs[i].Uint64())
+					s.log.Error("No Value in database, not submitting here.", challenge.RequestIDs[i].Uint64())
 					return false
 				}
 			}
