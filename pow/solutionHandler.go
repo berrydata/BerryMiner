@@ -99,7 +99,7 @@ func (s *SolutionHandler) Submit(ctx context.Context, result *Result) bool {
 		tm := time.Unix(last, 0)
 		fmt.Println("Time since last submit: ", today.Sub(tm))
 		if today.Sub(tm) < time.Duration(1)*time.Minute {
-			fmt.Println("Cannot submit value, within 2 minutes")
+			fmt.Println("Cannot submit value, within 1 minute")
 			return false
 		}
 	}
