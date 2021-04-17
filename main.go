@@ -81,7 +81,7 @@ func buildContext() error {
 			return fmt.Errorf("could not determine if Ethereum client is syncing: %v\n", err)
 		}
 		if s {
-			return fmt.Errorf("ethereum node is still sycning with the network")
+			return fmt.Errorf("ethereum node is still syncing with the network")
 		}
 	}
 	return nil
