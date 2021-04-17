@@ -21,7 +21,7 @@ BSC Mainnet - [0xf859Bf77cBe8699013d6Dbc7C2b926Aaf307F830](https://bscscan.com/a
 Now only support linux and MacOS system.
 
 ```bash
-./relealse_build.sh
+./release_build.sh
 ```
 
 ## How to mine
@@ -57,7 +57,7 @@ Now you can start stake 1000 BRY for mining by this command
 Then you can use this command to check your stake status
 
 ```bash
-/BerryMiner stake status
+./BerryMiner stake status
 ```
 
 Its output should as follow
@@ -90,7 +90,7 @@ nohup ./BerryMiner mine &
 
     There is no promise that Berry Tributes currently hold or will ever hold any value. 
 
-Please join our Discord for more information and community updates. 
+Please join our Telegram for more information and community updates. 
 
 
 #### Contributors<a name="contributors"> </a>
