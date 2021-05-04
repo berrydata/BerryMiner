@@ -16,6 +16,27 @@ var PSRs = map[int]ValueGenerator{
 	3: &SingleSymbol{symbol: "LTC/USD", granularity: 1000000, transform: MedianAt},
 	4: &SingleSymbol{symbol: "XRP/USD", granularity: 1000000, transform: MedianAt},
 	5: &SingleSymbol{symbol: "BNB/USD", granularity: 1000000, transform: MedianAt},
+
+	6: &SingleSymbol{symbol: "ETC/USD", granularity: 1000000, transform: MedianAt},
+	7: &SingleSymbol{symbol: "BCH/USD", granularity: 1000000, transform: MedianAt},
+	8: &SingleSymbol{symbol: "BSV/USD", granularity: 1000000, transform: MedianAt},
+	9: &SingleSymbol{symbol: "EOS/USD", granularity: 1000000, transform: MedianAt},
+	10: &SingleSymbol{symbol: "DOGE/USD", granularity: 1000000, transform: MedianAt},
+
+	11: &SingleSymbol{symbol: "DOT/USD", granularity: 1000000, transform: MedianAt},
+	12: &SingleSymbol{symbol: "ADA/USD", granularity: 1000000, transform: MedianAt},
+	13: &SingleSymbol{symbol: "ONT/USD", granularity: 1000000, transform: MedianAt},
+	14: &SingleSymbol{symbol: "ATOM/USD", granularity: 1000000, transform: MedianAt},
+
+	15: &SingleSymbol{symbol: "UNI/USD", granularity: 1000000, transform: MedianAt},
+	16: &SingleSymbol{symbol: "LINK/USD", granularity: 1000000, transform: MedianAt},
+	17: &SingleSymbol{symbol: "CAKE/USD", granularity: 1000000, transform: MedianAt},
+	18: &SingleSymbol{symbol: "BAKE/USD", granularity: 1000000, transform: MedianAt},
+	19: &SingleSymbol{symbol: "GRT/USD", granularity: 1000000, transform: MedianAt},
+	20: &SingleSymbol{symbol: "1INCH/USD", granularity: 1000000, transform: MedianAt},
+	21: &SingleSymbol{symbol: "REEF/USD", granularity: 1000000, transform: MedianAt},
+	22: &SingleSymbol{symbol: "ALPHA/USD", granularity: 1000000, transform: MedianAt},
+	23: &SingleSymbol{symbol: "BUNNY/USD", granularity: 1000000, transform: MedianAt},
 }
 
 //these weight functions map values of x between 0 (brand new) and 1 (old) to weights between 0 and 1

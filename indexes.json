@@ -15,28 +15,103 @@
 		"json(https://www.bitstamp.net/api/v2/ticker/ethusd).last",
 		"json(https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd).ethereum.usd"
 	],
-	"LINK/USD": [
-		"json(https://api.binance.com/api/v1/klines?symbol=LINKUSDC&interval=1d&limit=1).0.4",
-		"json(https://api.binance.com/api/v1/klines?symbol=LINKUSDT&interval=1d&limit=1).0.4"
-	],
 	"LTC/USD": [
 		"json(https://api.coingecko.com/api/v3/simple/price?ids=litecoin&vs_currencies=usd).litecoin.usd",
-		"json(https://api.binance.com/api/v1/klines?symbol=LTCUSDT&interval=1d&limit=1).0.4"
+		"json(https://api.binance.com/api/v1/klines?symbol=LTCUSDT&interval=1d&limit=1).0.4",
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=ltcusdt).tick.close"
 	],
 	"XRP/USD": [
 		"json(https://api.binance.com/api/v1/klines?symbol=XRPUSDT&interval=1d&limit=1).0.4",
-		"json(https://api.coingecko.com/api/v3/simple/price?ids=ripple&vs_currencies=usd).ripple.usd"
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=ripple&vs_currencies=usd).ripple.usd",
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=xrpusdt).tick.close"
 	],
 	"BNB/USD": [
 		"json(https://dex.binance.org/api/v1/klines?symbol=BNB_USDSB-1AC&interval=1d&limit=1).0.4",
 		"json(https://api.binance.com/api/v1/klines?symbol=BNBUSDT&interval=1d&limit=1).0.4",
 		"json(https://api.coingecko.com/api/v3/simple/price?ids=binancecoin&vs_currencies=usd).binancecoin.usd"
 	],
-	"DAI/USD": [
-		"json(https://api.coingecko.com/api/v3/simple/price?ids=dai&vs_currencies=usd).dai.usd"
+	"CAKE/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=pancakeswap-token&vs_currencies=usd).pancakeswap-toke.usd",
+		"json(https://api.binance.com/api/v1/klines?symbol=CAKEUSDT&interval=1d&limit=1).0.4"
+	],
+	"BAKE/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=bakerytoken&vs_currencies=usd).bakerytoken.usd",
+		"json(https://api.binance.com/api/v1/klines?symbol=BAKEUSDT&interval=1d&limit=1).0.4"
+	],
+	"DOGE/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=dogecoin&vs_currencies=usd).dogecoin.usd",
+		"json(https://api.binance.com/api/v1/klines?symbol=DOGEUSDT&interval=1d&limit=1).0.4",
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=dogeusdt).tick.close"
+	],
+	"BCH/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=bitcoin-cash&vs_currencies=usd).bitcoin-cash.usd",
+		"json(https://api.binance.com/api/v1/klines?symbol=BCHUSDT&interval=1d&limit=1).0.4",
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=bchusdt).tick.close"
+	],
+	"ADA/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=cardano&vs_currencies=usd).cardano.usd",
+		"json(https://api.binance.com/api/v1/klines?symbol=ADAUSDT&interval=1d&limit=1).0.4",
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=adausdt).tick.close"
+	],
+	"BSV/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=bitcoin-cash-sv&vs_currencies=usd).bitcoin-cash-sv.usd",
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=bsvusdt).tick.close"
 	],
 	"EOS/USD": [
 		"json(https://api.coingecko.com/api/v3/simple/price?ids=eos&vs_currencies=usd).eos.usd",
-		"json(https://api.binance.com/api/v1/klines?symbol=EOSUSDT&interval=1d&limit=1).0.4"
+		"json(https://api.binance.com/api/v1/klines?symbol=EOSUSDT&interval=1d&limit=1).0.4",
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=eosusdt).tick.close"
+	],
+	"GRT/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=the-graph&vs_currencies=usd).the-graph.usd",
+		"json(https://api.binance.com/api/v1/klines?symbol=GRTUSDT&interval=1d&limit=1).0.4",
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=grtusdt).tick.close"
+	],
+	"ONT/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=ontology&vs_currencies=usd).ontology.usd",
+		"json(https://api.binance.com/api/v1/klines?symbol=ONTUSDT&interval=1d&limit=1).0.4",
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=ontusdt).tick.close"
+	],
+	"1INCH/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=1inch&vs_currencies=usd).1inch.usd",
+		"json(https://api.binance.com/api/v1/klines?symbol=1INCHUSDT&interval=1d&limit=1).0.4",
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=1inchusdt).tick.close"
+	],
+	"REEF/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=reef-finance&vs_currencies=usd).reef-finance.usd",
+		"json(https://api.binance.com/api/v1/klines?symbol=REEFUSDT&interval=1d&limit=1).0.4",
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=reefusdt).tick.close"
+	],
+	"ALPHA/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=alpaca-finance&vs_currencies=usd).alpaca-finance.usd",
+		"json(https://api.binance.com/api/v1/klines?symbol=ALPHAUSDT&interval=1d&limit=1).0.4",
+	],
+	"BUNNY/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=pancake-bunny&vs_currencies=usd).pancake-bunny.usd"
+	],
+	"ATOM/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=cosmos&vs_currencies=usd).cosmos.usd",
+		"json(https://api.binance.com/api/v1/klines?symbol=ATOMUSDT&interval=1d&limit=1).0.4",
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=atomusdt).tick.close"
+	],
+	"DOT/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=polkadot&vs_currencies=usd).polkadot.usd",
+		"json(https://api.binance.com/api/v1/klines?symbol=DOTUSDT&interval=1d&limit=1).0.4",
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=dotusdt).tick.close"
+	],
+	"UNI/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=uniswap&vs_currencies=usd).uniswap.usd",
+		"json(https://api.binance.com/api/v1/klines?symbol=UNIUSDT&interval=1d&limit=1).0.4",
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=uniusdt).tick.close"
+	],
+	"LINK/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=chainlink&vs_currencies=usd).chainlink.usd",
+		"json(https://api.binance.com/api/v1/klines?symbol=LINKUSDT&interval=1d&limit=1).0.4",
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=linkusdt).tick.close"
+	],
+	"ETC/USD": [
+		"json(https://api.coingecko.com/api/v3/simple/price?ids=ethereum-classic&vs_currencies=usd).ethereum-classic.usd",
+		"json(https://api.binance.com/api/v1/klines?symbol=ETCUSDT&interval=1d&limit=1).0.4",
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=etcusdt).tick.close"
 	]
 }
