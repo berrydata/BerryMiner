@@ -19,33 +19,31 @@
 	"XRP/USD": [
 		"json(https://api.binance.com/api/v1/klines?symbol=XRPUSDT&interval=1d&limit=1).0.4",
 		"json(https://api.huobi.de.com/market/detail/merged?symbol=xrpusdt).tick.close",
-		"json(https://www.okex.com/api/v5/market/ticker?instId=XRP-USDT).data.last"
+		"json(https://ftx.com/api/markets/XRP/USD).result.last"
 	],
 	"BNB/USD": [
 		"json(https://dex.binance.org/api/v1/klines?symbol=BNB_USDSB-1AC&interval=1d&limit=1).0.4",
 		"json(https://api.binance.com/api/v1/klines?symbol=BNBUSDT&interval=1d&limit=1).0.4",
 		"json(https://data.gateapi.io/api2/1/ticker/bnb_usdt).last"
 	],
-
 	"DOGE/USD": [
 		"json(https://api.binance.com/api/v1/klines?symbol=DOGEUSDT&interval=1d&limit=1).0.4",
 		"json(https://api.huobi.de.com/market/detail/merged?symbol=dogeusdt).tick.close",
-		"json(https://www.mxc.com//open/api/v2/market/ticker?symbol=DOGE_USDT).data.last"
+		"json(https://data.gateapi.io/api2/1/ticker/doge_usdt).last"
 	],
 	"BCH/USD": [
-		"json(https://www.okex.com/api/v5/market/ticker?instId=BCH-USDT).data.last",
+		"json(https://ftx.com/api/markets/BCH/USD).result.last",
 		"json(https://api.binance.com/api/v1/klines?symbol=BCHUSDT&interval=1d&limit=1).0.4",
 		"json(https://api.huobi.de.com/market/detail/merged?symbol=bchusdt).tick.close"
 	],
 	"ADA/USD": [
-		"json(https://www.okex.com/api/v5/market/ticker?instId=ADA-USDT).data.last",
 		"json(https://api.binance.com/api/v1/klines?symbol=ADAUSDT&interval=1d&limit=1).0.4",
-		"json(https://api.huobi.de.com/market/detail/merged?symbol=adausdt).tick.close"
+		"json(https://api.huobi.de.com/market/detail/merged?symbol=adausdt).tick.close",
+		"json(https://data.gateapi.io/api2/1/ticker/ada_usdt).last"
 	],
 	"BSV/USD": [
-		"json(https://www.okex.com/api/v5/market/ticker?instId=BSV-USDT).data.last",
 		"json(https://api.huobi.de.com/market/detail/merged?symbol=bsvusdt).tick.close",
-		"json(https://www.mxc.com//open/api/v2/market/ticker?symbol=BSV_USDT).data.last"
+		"json(https://data.gateapi.io/api2/1/ticker/bsv_usdt).last"
 	],
 	"EOS/USD": [
 		"json(https://api.binance.com/api/v1/klines?symbol=EOSUSDT&interval=1d&limit=1).0.4",
@@ -55,7 +53,7 @@
 	"DOT/USD": [
 		"json(https://api.binance.com/api/v1/klines?symbol=DOTUSDT&interval=1d&limit=1).0.4",
 		"json(https://api.huobi.de.com/market/detail/merged?symbol=dotusdt).tick.close",
-		"json(https://www.okex.com/api/v5/market/ticker?instId=DOT-USDT).data.last"
+		"json(https://data.gateapi.io/api2/1/ticker/dot_usdt).last"
 	],
 	"UNI/USD": [
 		"json(https://api.binance.com/api/v1/klines?symbol=UNIUSDT&interval=1d&limit=1).0.4",
@@ -75,7 +73,7 @@
 	"XLM/USD": [
 		"json(https://api.binance.com/api/v1/klines?symbol=XLMUSDT&interval=1d&limit=1).0.4",
 		"json(https://api.huobi.de.com/market/detail/merged?symbol=xlmusdt).tick.close",
-		"json(https://www.okex.com/api/v5/market/ticker?instId=XLM-USDT).data.last"
+		"json(https://data.gateapi.io/api2/1/ticker/xlm_usdt).last"
 	],
 	"TRX/USD": [
 		"json(https://api.binance.com/api/v1/klines?symbol=TRXUSDT&interval=1d&limit=1).0.4",
@@ -88,12 +86,11 @@
 		"json(https://api.huobi.de.com/market/detail/merged?symbol=solusdt).tick.close"
 	],
 	"FIL/USD": [
-		"json(https://www.mxc.com//open/api/v2/market/ticker?symbol=FIL_USDT).data.last",
+		"json(https://api.pro.coinbase.com/products/BTC-USD/ticker).price",
 		"json(https://api.binance.com/api/v1/klines?symbol=FILUSDT&interval=1d&limit=1).0.4",
 		"json(https://api.huobi.de.com/market/detail/merged?symbol=filusdt).tick.close"
 	],
 	"ALPACA/USD": [
-		"json(https://www.mxc.com//open/api/v2/market/ticker?symbol=ALPACA_USDT).data.last",
 		"json(https://data.gateapi.io/api2/1/ticker/alpaca_usdt).last",
 		"json(https://api.coingecko.com/api/v3/simple/price?ids=alpaca-finance&vs_currencies=usd).alpaca-finance.usd"
 	]
