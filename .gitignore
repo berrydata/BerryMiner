@@ -36,3 +36,4 @@ libOpenCL.a
 /.env
 berryDB*
 logs/
+local_cfgs/
