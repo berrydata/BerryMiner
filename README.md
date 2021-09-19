@@ -21,7 +21,7 @@ BSC Mainnet - [0xf859Bf77cBe8699013d6Dbc7C2b926Aaf307F830](https://bscscan.com/a
 Now only support linux and MacOS system.
 
 ```bash
-./relealse_build.sh
+./release_build.sh
 ```
 
 ## How to mine
@@ -40,7 +40,7 @@ You can use follow command to check your balance:
 ./BerryMiner balance
 ```
 
-Its output should as follow
+It should output as follows:
 
 ```bash
 0xe010aC6e0248790e08F42d5F697160DEDf97E024
@@ -48,19 +48,19 @@ Its output should as follow
    1034.73 BRY
 ```
 
-Now you can start stake 1000 BRY for mining by this command
+Now you can start stake 1000 BRY for mining with this command:
 
 ```bash
 ./BerryMiner stake deposit
 ```
 
-Then you can use this command to check your stake status
+Then you can use this command to check your stake status:
 
 ```bash
-/BerryMiner stake status
+./BerryMiner stake status
 ```
 
-Its output should as follow
+It should output as follows:
 
 ```bash
 Staked in good standing since 2021-03-09 00:00:00 +0000 UTC
@@ -68,7 +68,7 @@ Staked in good standing since 2021-03-09 00:00:00 +0000 UTC
 
 ### Start Mining
 
-You can use this command to start mining
+You can use this command to start mining:
 
 ```
 nohup ./BerryMiner mine &
@@ -80,19 +80,19 @@ nohup ./BerryMiner mine &
 
     Mine at your own risk.  
 
-    Mining requires you deposit 1000 Berry Tributes.  These are a security deposity.  If you are a malicious actor (aka submit a bad value), the community can vote to slash your 1000 tokens.  
+    Mining requires you deposit 1000 Berry Tributes.  These are a security deposity.  If you are a malicious actor (e.g. submit a bad value), the community can vote to slash your 1000 tokens.  
 
-    Mining also requires submitting on-chain transactions on Ethereum.  These transactions cost gas (ETH) and can sometimes be signifiant if the cost of gas on EThereum is high (i.e. the network is clogged).  Please reach out to the community to find the best tips for keeping gas costs under control or at least being aware of the costs. 
+    Mining also requires submitting on-chain transactions on Ethereum.  These transactions cost gas (ETH) and can sometimes be signifiant if the cost of gas on Ethereum is high (i.e. the network is clogged).  Please reach out to the community to find the best tips for keeping gas costs under control or at least being aware of the costs. 
 
-    If you are building a competing client, please contact us.  The miner specifications are off-chain and a the validity of the mining process hinges on the consensus of the Berry community to determine what proper values are.  Competing clients that change different pieces run the risk of being disputed by the commmunity.  
+    If you are building a competing client, please contact us.  The miner specifications are off-chain and the validity of the mining process hinges on the consensus of the Berry community to determine what proper values are.  Competing clients that change different pieces run the risk of being disputed by the commmunity.  
 
     There is no guaruntee of profit from mining. 
 
     There is no promise that Berry Tributes currently hold or will ever hold any value. 
 
-Please join our Discord for more information and community updates. 
+Please join our Telegram for more information and community updates. 
 
 
-#### Contributors<a name="contributors"> </a>
+#### Contributors
 
 This repository is maintained by the Berry team - [www.berrydata.co](https://www.berrydata.co)
